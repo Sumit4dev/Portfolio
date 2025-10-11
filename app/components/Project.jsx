@@ -15,12 +15,12 @@ const Project = () => {
 
       <div className="grid md:grid-cols-4 my-10 gap-5">
         {workData.map((project, index) => (
-          <div
-            className="aspect-square bg-no-repeat bg-cover rounded-lg relative cursor-pointer group"
-            key={index}
-            style={{ backgroundImage: `url(${project.bgImage})` }}
-          >
-            <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-center duration-500 group-hover:bottom-7 gap-x-5">
+          <a target="_blank" href={project.href} key={index}>
+            <div
+              className="aspect-square bg-no-repeat bg-contain shadow-md border border-gray-100 rounded-lg relative cursor-pointer group"
+              style={{ backgroundImage: `url(${project.bgImage})` }}
+            >
+            <div  className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-center duration-500 group-hover:bottom-7 gap-x-5">
               <div>
                 <h2 className="font-semibold ">{project.title}</h2>
                 <p className="text-sm text-gray-700">{project.description}</p>
@@ -31,6 +31,7 @@ const Project = () => {
               </div>
             </div>
           </div>
+          </a>
         ))}
       </div>
 

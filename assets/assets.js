@@ -78,25 +78,31 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Ecopap ',
+        description: 'Tailwind CSS',
         bgImage: '/work-1.png',
+        href:'https://ecopap.ae/'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Net Zero',
+        description: 'Reactjs & Tailwind',
         bgImage: '/work-2.png',
+        href:'https://netzerojourney.org/'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Edumidz',
+        description: 'WordPress',
         bgImage: '/work-3.png',
+        href:'https://edumindzglobal.com/'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'GrowthNEXT',
+        description: 'PHP & Bootstrap',
         bgImage: '/work-4.png',
+        href:'https://growthnext.co.in/'
     },
+
+    
 ]
 
 export const serviceData = [
@@ -107,7 +113,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Technical Skills', description: 'HTML, CSS, JavaScript React Js, Next Js' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Graduated in B.sc' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
